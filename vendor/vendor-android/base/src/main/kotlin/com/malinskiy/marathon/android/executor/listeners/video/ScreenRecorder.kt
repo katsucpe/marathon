@@ -36,8 +36,8 @@ internal class ScreenRecorder(
         private const val DURATION = 180
         private const val BITRATE_MB_PER_SECOND = 1
         private val options = ScreenRecorderOptions(
-            0,
-            0,
+            720,
+            1280,
             BITRATE_MB_PER_SECOND,
             timeLimit = DURATION.toLong(),
             timeLimitUnits = SECONDS,
